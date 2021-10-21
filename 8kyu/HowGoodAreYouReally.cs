@@ -6,26 +6,26 @@ using System.Threading.Tasks;
 
 namespace CodeWarsTest._8kyu
 {
-    public class Kata
-    {
-        public static bool BetterThanAverage(int[] ClassPoints, int YourPoints)
-        {
-            int len = ClassPoints.Length;
-            int sum = ClassPoints.Sum();
-            double avg = 0;
+    //public class Kata
+    //{
+    //    public static bool BetterThanAverage(int[] ClassPoints, int YourPoints)
+    //    {
+    //        int len = ClassPoints.Length;
+    //        int sum = ClassPoints.Sum();
+    //        double avg = 0;
 
-            avg = (double)sum / len;
+    //        avg = (double)sum / len;
 
-            if (YourPoints > avg)
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
-        }
-    }
+    //        if (YourPoints > avg)
+    //        {
+    //            return true;
+    //        }
+    //        else
+    //        {
+    //            return false;
+    //        }
+    //    }
+    //}
 
     //[TestFixture]
     //public class Tests
