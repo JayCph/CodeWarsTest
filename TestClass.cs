@@ -4,16 +4,20 @@ namespace CodeWarsTest._8kyu
 {
     //Your [TestFixture] should be placed here:
     [TestFixture]
-    public class SolutionTest
+    public static class RentalCarTests
     {
-        [Test]
-        public void BasicTest()
-        {
-            Assert.AreEqual(21, Kata.ArrayPlusArray(new int[] { 1, 2, 3 }, new int[] { 4, 5, 6 }));
-            Assert.AreEqual(-21, Kata.ArrayPlusArray(new int[] { -1, -2, -3 }, new int[] { -4, -5, -6 }));
-            Assert.AreEqual(15, Kata.ArrayPlusArray(new int[] { 0, 0, 0 }, new int[] { 4, 5, 6 }));
-            Assert.AreEqual(2100, Kata.ArrayPlusArray(new int[] { 100, 200, 300 }, new int[] { 400, 500, 600 }));
 
+        private static void testing(int actual, int expected)
+        {
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public static void test1()
+        {
+            testing(RentalCar.RentalCarCost(1), 40);
+            testing(RentalCar.RentalCarCost(3), 100);
+            testing(RentalCar.RentalCarCost(7), 230);
         }
     }
 }

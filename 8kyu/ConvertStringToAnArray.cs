@@ -16,20 +16,20 @@ namespace CodeWarsTest._8kyu
     //    }
     //}
 
-//THIS BELOW OUT-COMMENTED AREA IS TO STORE OLD TEST FIXTURES IN CASE YOU WOULD LIKE TO REVIEW YOUR SOLUTIONS IN THE FUTURE.
+    //THIS BELOW OUT-COMMENTED AREA IS TO STORE OLD TEST FIXTURES IN CASE YOU WOULD LIKE TO REVIEW YOUR SOLUTIONS IN THE FUTURE.
 
-//[TestFixture]
-//public class SolutionTest
-//{
-//    [Test]
-//    public void _1_Example()
-//    {
-//        Assert.AreEqual(new string[] { "Robin", "Singh" }, Solution.StringToArray("Robin Singh"));
-//    }
+    //[TestFixture]
+    //public class SolutionTest
+    //{
+    //    [Test]
+    //    public void _1_Example()
+    //    {
+    //        Assert.AreEqual(new string[] { "Robin", "Singh" }, Solution.StringToArray("Robin Singh"));
+    //    }
 
-//    [Test]
-//    public void _2_Example()
-//    {
-//        Assert.AreEqual(new string[] { "I", "love", "arrays", "they", "are", "my", "favorite" }, Solution.StringToArray("I love arrays they are my favorite"));
-//    }
+    //    [Test]
+    //    public void _2_Example()
+    //    {
+    //        Assert.AreEqual(new string[] { "I", "love", "arrays", "they", "are", "my", "favorite" }, Solution.StringToArray("I love arrays they are my favorite"));
+    //    }
 }
