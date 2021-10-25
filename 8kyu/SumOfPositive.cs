@@ -4,16 +4,16 @@ namespace CodeWarsTest._8kyu
 {
     //public class Kata
     //{
-    //    public static int PositiveSum(int[] arr)
-    //    {
-    //        var positiveNumbers = arr.Where(x => x > 0).ToList();
+    //public static int PositiveSum(int[] arr)
+    //{
+    //    var positiveNumbers = arr.Where(x => x > 0).ToList();
 
-    //        {
-    //            int sum = positiveNumbers.Sum();
-    //            return (sum);
-    //        }
+    //    {
+    //        int sum = positiveNumbers.Sum();
+    //        return (sum);
     //    }
     //}
+}
 
     //[TestFixture]
     //public class Tests
@@ -29,4 +29,3 @@ namespace CodeWarsTest._8kyu
     //        return Kata.PositiveSum(arr);
     //    }
     //}
-}

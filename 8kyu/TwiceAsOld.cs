@@ -6,16 +6,13 @@ using System.Threading.Tasks;
 
 namespace CodeWarsTest._8kyu
 {
-    //public class RentalCar
+    //public class TwiceAsOldSolution
     //{
-
-    //    public static int RentalCarCost(int d)
+    //    public static int TwiceAsOld(int dadYears, int sonYears)
     //    {
-    //        int totalcost;
-
-    //        for (int i = 0; i <= d; i++)
+    //        for (int i = 0; i < length; i++)
     //        {
-    //            totalcost + 40;
+
     //        }
     //    }
     //}
