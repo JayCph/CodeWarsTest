@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace CodeWarsTest._7kyu
 {
-    class Kata
-    {
-        public static int Riders(int[] stations)
-        {
-            // Your code here
-            return 1;
-        }
-    }
+    //class Kata
+    //{
+    //    public static int Riders(int[] stations)
+    //    {
+    //        // Your code here
+    //        return 1;
+    //    }
+    //}
 }

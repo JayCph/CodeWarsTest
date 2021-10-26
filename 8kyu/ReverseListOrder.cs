@@ -1,9 +1,23 @@
-﻿using NUnit.Framework;
+﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace CodeWarsTest._8kyu
 {
-    //Your [TestFixture] should be placed here:
+    //public class Kata
+    //{
+    //    public static List<int> ReverseList(List<int> list)
+    //    {
+    //        return Enumerable.Reverse(list).ToList();
+            
+    //        // Return a new list with its elements in reverse order compared to the input list
+    //        // Do not mutate the original list!
+    //    }
+    //}
+
+
     //[TestFixture]
     //public class SolutionTest
     //{
